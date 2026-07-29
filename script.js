@@ -184,6 +184,15 @@
       "project.galleryHeading":"Drawings","project.gallerySub":"Replace placeholders with your actual exports.",
       "project.tagPlan":"Plan","project.tagSection":"Section","project.tagDetail":"Detail",
       "project.timeline.start":"Start","project.timeline.now":"Now","project.timeline.end":"End",
+      "cv.back":"← Back to portfolio","cv.print":"Print / Save as PDF",
+      "cv.summary":"Professional summary",
+      "cv.summaryText":"Geodetic engineer turned infrastructure designer and AI-aware engineering consultant. Nearly a decade of experience across surveying, cadaster, civil engineering design and EU/state-funded project delivery. Combines traditional engineering rigor with modern digital tools — AI agents, workflow automation and structured knowledge systems.",
+      "cv.competencies":"Core competencies","cv.experience":"Professional experience",
+      "cv.education":"Education","cv.languages":"Languages","cv.skills":"Technical skills","cv.projects":"Selected projects",
+      "cv.contact.location":"Romania · Available across Europe","cv.contact.availability":"Open to opportunities",
+      "cv.skills.eng":"AutoCAD (incl. Civil 3D), Revit, ArcGIS, QGIS, TopoLT, ProfLT, Microsoft Office",
+      "cv.skills.survey":"GNSS, Total Station, Drone, LiDAR processing",
+      "cv.skills.digital":"Python, Git, Docker, n8n, AI agents (OpenAI, Claude, Gemini), Automation, Cloud platforms",
       _projectContent("en")
     };
   }
@@ -311,6 +320,15 @@
       "project.galleryHeading":"Desene","project.gallerySub":"Înlocuiește placeholderele cu exporturile reale.",
       "project.tagPlan":"Plan","project.tagSection":"Secțiune","project.tagDetail":"Detaliu",
       "project.timeline.start":"Start","project.timeline.now":"Acum","project.timeline.end":"Final",
+      "cv.back":"← Înapoi la portofoliu","cv.print":"Printează / Salvează ca PDF",
+      "cv.summary":"Rezumat profesional",
+      "cv.summaryText":"Inginer geodez devenit proiectant de infrastructură și consultant în inginerie conștient de AI. Aproape un deceniu de experiență în topografie, cadastru, proiectare de inginerie civilă și livrare de proiecte pe fonduri UE/de stat. Combin rigoarea inginerească tradițională cu unelte digitale moderne — agenți AI, automatizare de fluxuri și sisteme de cunoaștere structurate.",
+      "cv.competencies":"Competențe de bază","cv.experience":"Experiență profesională",
+      "cv.education":"Educație","cv.languages":"Limbi","cv.skills":"Competențe tehnice","cv.projects":"Proiecte selectate",
+      "cv.contact.location":"România · Disponibil în toată Europa","cv.contact.availability":"Deschis către noi colaborări",
+      "cv.skills.eng":"AutoCAD (incl. Civil 3D), Revit, ArcGIS, QGIS, TopoLT, ProfLT, Microsoft Office",
+      "cv.skills.survey":"GNSS, Stație totală, Dronă, Prelucrare LiDAR",
+      "cv.skills.digital":"Python, Git, Docker, n8n, Agenți AI (OpenAI, Claude, Gemini), Automatizare, Platforme cloud",
       _projectContent("ro")
     };
   }
@@ -438,6 +456,15 @@
       "project.galleryHeading":"Plans","project.gallerySub":"Remplacez les placeholders par vos exports réels.",
       "project.tagPlan":"Plan","project.tagSection":"Coupe","project.tagDetail":"Détail",
       "project.timeline.start":"Début","project.timeline.now":"Maintenant","project.timeline.end":"Fin",
+      "cv.back":"← Retour au portfolio","cv.print":"Imprimer / Sauver en PDF",
+      "cv.summary":"Résumé professionnel",
+      "cv.summaryText":"Ingénieur géomètre devenu concepteur d'infrastructures et consultant en ingénierie IA-aware. Près d'une décennie d'expérience en topographie, cadastre, conception de génie civil et livraison de projets sur fonds UE/État. Combine la rigueur de l'ingénierie traditionnelle avec les outils numériques modernes — agents IA, automatisation des flux et systèmes de connaissance structurés.",
+      "cv.competencies":"Compétences clés","cv.experience":"Expérience professionnelle",
+      "cv.education":"Formation","cv.languages":"Langues","cv.skills":"Compétences techniques","cv.projects":"Projets sélectionnés",
+      "cv.contact.location":"Roumanie · Disponible à travers l'Europe","cv.contact.availability":"Ouvert aux opportunités",
+      "cv.skills.eng":"AutoCAD (dont Civil 3D), Revit, ArcGIS, QGIS, TopoLT, ProfLT, Microsoft Office",
+      "cv.skills.survey":"GNSS, Station totale, Drone, Traitement LiDAR",
+      "cv.skills.digital":"Python, Git, Docker, n8n, Agents IA (OpenAI, Claude, Gemini), Automatisation, Plateformes cloud",
       _projectContent("fr")
     };
   }
@@ -565,6 +592,15 @@
       "project.galleryHeading":"Pläne","project.gallerySub":"Ersetzen Sie die Platzhalter durch echte Exporte.",
       "project.tagPlan":"Grundriss","project.tagSection":"Schnitt","project.tagDetail":"Detail",
       "project.timeline.start":"Start","project.timeline.now":"Jetzt","project.timeline.end":"Ende",
+      "cv.back":"← Zurück zum Portfolio","cv.print":"Drucken / Als PDF speichern",
+      "cv.summary":"Berufliches Profil",
+      "cv.summaryText":"Vermessungsingenieur, jetzt Infrastruktur-Designer und KI-bewusster Ingenieurberater. Fast ein Jahrzehnt Erfahrung in Vermessung, Kataster, Bauingenieurplanung und Lieferung von EU-/Staats-Projekten. Kombiniert die Sorgfalt traditioneller Ingenieursarbeit mit modernen digitalen Werkzeugen — KI-Agenten, Workflow-Automatisierung und strukturierten Wissenssystemen.",
+      "cv.competencies":"Kernkompetenzen","cv.experience":"Berufserfahrung",
+      "cv.education":"Ausbildung","cv.languages":"Sprachen","cv.skills":"Technische Kompetenzen","cv.projects":"Ausgewählte Projekte",
+      "cv.contact.location":"Rumänien · Verfügbar in ganz Europa","cv.contact.availability":"Offen für neue Möglichkeiten",
+      "cv.skills.eng":"AutoCAD (inkl. Civil 3D), Revit, ArcGIS, QGIS, TopoLT, ProfLT, Microsoft Office",
+      "cv.skills.survey":"GNSS, Totalstation, Drohne, LiDAR-Verarbeitung",
+      "cv.skills.digital":"Python, Git, Docker, n8n, KI-Agenten (OpenAI, Claude, Gemini), Automatisierung, Cloud-Plattformen",
       _projectContent("de")
     };
   }

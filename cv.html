@@ -67,6 +67,19 @@
     </a>
     <div class="nav-actions">
       <a class="btn btn-outline btn-sm no-print" href="index.html" data-i18n="cv.back">← Back to portfolio</a>
+      <div class="lang-dropdown no-print">
+        <button id="lang-toggle" class="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+          <span class="lang-flag" aria-hidden="true"><object type="image/svg+xml" data="assets/flags/gb.svg" style="width:100%;height:100%;pointer-events:none"></object></span>
+          <span class="lang-current">English</span>
+          <svg class="lang-chevron" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 4 L5 7 L8 4"/></svg>
+        </button>
+        <ul class="lang-menu" role="listbox" aria-label="Select language">
+          <li role="option" data-lang="en" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/gb.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>English</span></li>
+          <li role="option" data-lang="ro" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/ro.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>Română</span></li>
+          <li role="option" data-lang="fr" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/fr.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>Français</span></li>
+          <li role="option" data-lang="de" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/de.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>Deutsch</span></li>
+        </ul>
+      </div>
       <button id="print-btn" class="btn btn-primary btn-sm no-print" onclick="window.print()" data-i18n="cv.print">Print / Save as PDF</button>
     </div>
   </div>
