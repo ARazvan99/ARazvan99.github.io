@@ -278,8 +278,9 @@ ul, ol { margin: 0 0 var(--s-4); padding-left: 1.2em; }
   display: inline-block;
   box-shadow: 0 0 0 1px rgba(0,0,0,.08);
   flex-shrink: 0;
+  background: #fff;
 }
-.lang-flag svg { width: 100%; height: 100%; display: block; }
+.lang-flag svg, .lang-flag img { width: 100%; height: 100%; display: block; }
 .lang-chevron {
   width: 10px; height: 10px;
   transition: transform var(--t-fast) var(--ease);
@@ -998,7 +999,7 @@ ul, ol { margin: 0 0 var(--s-4); padding-left: 1.2em; }
   overflow: hidden;
   box-shadow: 0 0 0 1px rgba(0,0,0,.08);
 }
-.lang-card .flag svg { width: 100%; height: 100%; display: block; }
+.lang-card .flag svg, .lang-card .flag img { width: 100%; height: 100%; display: block; }
 .lang-card h3 {
   margin: 0 0 .25rem;
   font-size: 1.1rem;
@@ -1613,15 +1614,25 @@ ul, ol { margin: 0 0 var(--s-4); padding-left: 1.2em; }
 }
 .project-nav .next { text-align: right; align-items: flex-end; }
 
-/* ---------- Scroll reveal ---------- */
+/* ---------- Scroll reveal ----------
+   Default state: visible (so content shows even if JS fails / is slow).
+   The .js-reveal class is added to <html> by an early script; only then
+   do .reveal elements start hidden and animate in via IntersectionObserver. */
 .reveal {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity .7s var(--ease), transform .7s var(--ease);
-}
-.reveal.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html.js-reveal .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity .55s var(--ease), transform .55s var(--ease);
+    will-change: opacity, transform;
+  }
+  html.js-reveal .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ---------- Print (for cv.html) ---------- */
