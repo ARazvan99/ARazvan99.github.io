@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1e3a5f">
+<meta name="author" content="Afloarei Razvan-Bogdan">
+<title>AI & Workflow Automation Project — Afloarei Razvan-Bogdan</title>
+<meta name="description" content="AI & Workflow Automation case study. Operational AI-assisted automation for an engineering company — document ingestion, LLM processing, structured databases, human-in-the-loop validation.">
+<link rel="canonical" href="https://ARazvan99.github.io/project-7.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ARazvan99.github.io/project-7.html">
+<meta property="og:title" content="AI & Workflow Automation Project — Afloarei Razvan-Bogdan">
+<meta property="og:description" content="Operational AI-assisted workflow automation case study.">
+<meta property="og:image" content="https://ARazvan99.github.io/images/drawing1.svg">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231e3a5f'/><path d='M16 46V18l16 10 16-10v28' fill='none' stroke='%23d97706' stroke-width='4' stroke-linejoin='round'/></svg>">
+<script>document.documentElement.classList.add('js-reveal');</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand" aria-label="Afloarei Razvan-Bogdan — home">
+      <span class="brand-mark" aria-hidden="true">AB</span>
+      <span>
+        <span class="brand-name" data-i18n="brand">Afloarei Razvan-Bogdan</span>
+        <span class="brand-tag">Engineering Portfolio</span>
+      </span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html#impact" data-i18n="nav.work">Work</a></li>
+        <li><a href="index.html#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="index.html#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a class="social-icon is-hidden-mobile" href="https://www.linkedin.com/in/razvan-afloarei/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+      <div class="lang-dropdown">
+        <button id="lang-toggle" class="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+          <span class="lang-flag" aria-hidden="true"><img src="assets/flags/gb.svg" alt="" loading="eager" decoding="async" width="22" height="14"></span>
+          <span class="lang-current">English</span>
+          <svg class="lang-chevron" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 4 L5 7 L8 4"/></svg>
+        </button>
+        <ul class="lang-menu" role="listbox" aria-label="Select language">
+          <li role="option" data-lang="en" tabindex="0"><span class="lang-flag"><img src="assets/flags/gb.svg" alt="" loading="lazy" decoding="async" width="22" height="14"></span><span>English</span></li>
+          <li role="option" data-lang="ro" tabindex="0"><span class="lang-flag"><img src="assets/flags/ro.svg" alt="" loading="lazy" decoding="async" width="22" height="14"></span><span>Română</span></li>
+          <li role="option" data-lang="fr" tabindex="0"><span class="lang-flag"><img src="assets/flags/fr.svg" alt="" loading="lazy" decoding="async" width="22" height="14"></span><span>Français</span></li>
+          <li role="option" data-lang="de" tabindex="0"><span class="lang-flag"><img src="assets/flags/de.svg" alt="" loading="lazy" decoding="async" width="22" height="14"></span><span>Deutsch</span></li>
+        </ul>
+      </div>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="project-page">
+  <div class="container">
+    <a href="index.html#projects" class="back-link" data-i18n="project.back">← Back to portfolio</a>
+
+    <article class="project">
+      <header class="project-header">
+        <p class="eyebrow"><span data-i18n="project.eyebrow">Project</span> 07 · <span data-i18n="project7.tag">AI Automation</span></p>
+        <h1 data-i18n="project7.title">AI & Workflow Automation Project</h1>
+        <ul class="project-meta">
+          <li class="project-meta-item"><strong data-i18n="project.meta.location">Location</strong> · <span data-i18n="project7.location">Romania</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.year">Year</strong> · <span data-i18n="project7.year">2024 – ongoing</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.area">Area</strong> · <span data-i18n="project7.area">Internal operations</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.client">Client</strong> · <span data-i18n="project7.client">Commercial company</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.funding">Funding</strong> · <span data-i18n="project7.funding">Self-funded</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.role">Role</strong> · <span data-i18n="project7.role">Solution architect & developer</span></li>
+        </ul>
+      </header>
+
+      <figure class="project-hero">
+        <a href="images/projects/p7/01-plan.svg" target="_blank" rel="noopener">
+          <img src="images/projects/p7/01-plan.svg" alt="AI & Workflow Automation overview placeholder" loading="lazy" width="800" height="600">
+        </a>
+        <figcaption><span data-i18n="project.imageCaption">Click image for full size</span><span data-i18n="project7.role">Solution architect & developer</span></figcaption>
+      </figure>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.contextHeading">Context</h2>
+        <p data-i18n="project7.overview">[PLACEHOLDER OVERVIEW — EDIT ME] Operational case study: design and implementation of an AI-assisted workflow automation system for an engineering company, integrating document ingestion, AI-assisted processing, structured databases, and human validation points.</p>
+      </div>
+
+      <div class="project-problem-solution reveal">
+        <div class="problem-card">
+          <h3 data-i18n="project.problemHeading">Problem</h3>
+          <p data-i18n="project7.problem">[PLACEHOLDER] Repetitive manual work in document handling, reporting, and internal communication was consuming engineering hours and slowing delivery.</p>
+        </div>
+        <div class="solution-card">
+          <h3 data-i18n="project.solutionHeading">Solution</h3>
+          <p data-i18n="project7.solution">[PLACEHOLDER] AI-assisted ingestion + structured extraction + human-in-the-loop validation + automated report generation + cloud storage with structured paths.</p>
+        </div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.problemContextHeading">Existing context</h2>
+        <p data-i18n="project7.problemContext">[PLACEHOLDER] The company's project intake, reporting and document distribution relied on manual copy-paste between email, spreadsheets and shared folders.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.problemWorkflowHeading">Current manual workflow</h2>
+        <p data-i18n="project7.problemWorkflow">[PLACEHOLDER] 1. Operator receives documents by email or upload. 2. Manual classification. 3. Manual data extraction into spreadsheets. 4. Manual formatting of reports. 5. Manual email distribution. 6. Manual filing.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.problemBottlenecksHeading">Identified bottlenecks</h2>
+        <p data-i18n="project7.problemBottlenecks">[PLACEHOLDER] Manual data entry (slow, error-prone), version control of spreadsheets (no audit trail), report formatting (high variability between operators), knowledge loss when staff changes.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.solutionArchHeading">Automation architecture</h2>
+        <p data-i18n="project7.solutionArch">[PLACEHOLDER] n8n orchestrator pulling from email/cloud storage, sending documents to OCR + LLM pipeline, extracting structured fields, storing into a structured database, generating standardized reports via templates, notifying human validators, archiving in versioned folder.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.solutionAIHeading">AI components</h2>
+        <p data-i18n="project7.solutionAI">[PLACEHOLDER] Cloud LLM for structured extraction (frontier model), local LLM as fallback for sensitive documents, OCR service for scanned inputs, embeddings for semantic search across the document archive.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.solutionHumanHeading">Human validation points</h2>
+        <p data-i18n="project7.solutionHuman">[PLACEHOLDER] Every extracted record passes through a human-in-the-loop validation step before being committed to the structured database. Edge cases are flagged for review, not auto-accepted.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.techHeading">Tools used</h2>
+        <ul class="chips" role="list">
+          <li class="chip">n8n</li><li class="chip">Cloud LLM (frontier)</li><li class="chip">Local LLM</li><li class="chip">OCR</li><li class="chip">Telegram bot</li><li class="chip">Cloud VPS</li><li class="chip">Microsoft Office automation</li><li class="chip">Structured database</li><li class="chip">Cloud storage</li><li class="chip">API integrations</li>
+        </ul>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.securityHeading">Security considerations</h2>
+        <p data-i18n="project7.security">[PLACEHOLDER] Local LLM for documents flagged as sensitive; encryption at rest in cloud storage; least-privilege access; audit logs of every automation run; no document content sent to third-party APIs without explicit classification.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.stagesHeading">Implementation stages</h2>
+        <p data-i18n="project7.stages">Stage 1: workflow discovery & process mapping. Stage 2: pilot on a single document class. Stage 3: structured database schema. Stage 4: full automation pipeline. Stage 5: human validation UI. Stage 6: report templates. Stage 7: rollout to operators. Stage 8: measurement & tuning.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.timeSavedHeading">Time saved</h2>
+        <p data-i18n="project7.timeSaved">[TBD — to be added] hours per week</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.manualReducedHeading">Manual steps reduced</h2>
+        <p data-i18n="project7.manualReduced">[TBD — to be added] manual steps eliminated per intake</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.timeImprovementHeading">Processing time improvement</h2>
+        <p data-i18n="project7.timeImprovement">[TBD — to be added]% reduction in processing time</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.errorReductionHeading">Error reduction</h2>
+        <p data-i18n="project7.errorReduction">[TBD — to be added]% reduction in extraction errors (measured vs manual baseline)</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.scalabilityHeading">Scalability</h2>
+        <div class="impact-card"><p data-i18n="project7.scalability">The pattern scales horizontally: adding a new document class requires a new extraction schema and validation rule — no rewrite of the pipeline.</p></div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.impactHeading">Business impact</h2>
+        <div class="impact-card"><p data-i18n="project7.impact">[PLACEHOLDER] Repetitive low-value work removed from engineering workflows, allowing professionals to focus on decisions and expertise. Standardized reporting reduces variability between operators. Audit trail introduced where there was none.</p></div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.lessonsHeading">Lessons learned</h2>
+        <div class="lessons-card"><p data-i18n="project7.lessons">[PLACEHOLDER] Human-in-the-loop is non-negotiable for high-stakes records. Structured outputs from LLMs require schema validation. Edge cases are the most informative for tuning. Document the workflow before automating it.</p></div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.futureHeading">Future development</h2>
+        <p data-i18n="project7.future">[PLACEHOLDER] Additional document classes, semantic search across the archive, predictive prioritization of incoming items, full bilingual EN/RO support in the validation UI.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.galleryHeading">Drawings</h2>
+        <p class="section-sub" data-i18n="project.gallerySub">Replace placeholders with your actual exports.</p>
+        <ul class="gallery" role="list">
+          <li class="gallery-item"><a href="images/projects/p7/01-plan.svg" target="_blank" rel="noopener"><figure><img src="images/projects/p7/01-plan.svg" alt="Automation overview placeholder" loading="lazy" width="800" height="600"><figcaption><span class="tag" data-i18n="project.tagPlan">Plan</span><span class="caption">Automation overview</span></figcaption></figure></a></li>
+          <li class="gallery-item"><a href="images/projects/p7/02-section.svg" target="_blank" rel="noopener"><figure><img src="images/projects/p7/02-section.svg" alt="Architecture diagram placeholder" loading="lazy" width="800" height="600"><figcaption><span class="tag" data-i18n="project.tagSection">Section</span><span class="caption">Architecture</span></figcaption></figure></a></li>
+          <li class="gallery-item"><a href="images/projects/p7/03-detail.svg" target="_blank" rel="noopener"><figure><img src="images/projects/p7/03-detail.svg" alt="Implementation stages placeholder" loading="lazy" width="800" height="600"><figcaption><span class="tag" data-i18n="project.tagDetail">Detail</span><span class="caption">Implementation stages</span></figcaption></figure></a></li>
+        </ul>
+      </div>
+
+      <nav class="project-nav" aria-label="Project navigation">
+        <a href="project-6.html" class="prev">
+          <span class="nav-direction" data-i18n="project.prev">Previous project</span>
+          <span class="nav-title" data-i18n="project6.title">PNRR-Funded Civic Project</span>
+        </a>
+        <a href="project-1.html" class="next">
+          <span class="nav-direction" data-i18n="project.next">Next project</span>
+          <span class="nav-title" data-i18n="project1.title">Topographical Survey — Urban Area</span>
+        </a>
+      </nav>
+
+      <section class="mini-contact">
+        <h2 data-i18n="contact.title">Let's talk about your project</h2>
+        <p data-i18n="contact.sub">Send a short brief, the site address and a timeline. I'll reply within one working day.</p>
+        <div class="mini-contact-actions">
+          <a class="btn btn-primary" href="mailto:afloareirazvan@yahoo.com" data-i18n="contact.cta">Open email client</a>
+          <a class="btn btn-outline" href="tel:+40768981416" data-i18n="contact.callCta">Call</a>
+          <a class="btn btn-outline" href="cv.html" data-i18n="contact.cv">Download CV</a>
+        </div>
+      </section>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p data-i18n="footer.copy">© <span id="year"></span> Afloarei Razvan-Bogdan — All rights reserved.</p>
+    <p class="footer-meta" data-i18n="footer.meta">AutoCAD Drafting · Topography &amp; Cadastre · Civil Engineering · AI Automation</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

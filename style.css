@@ -1643,3 +1643,35 @@ ul, ol { margin: 0 0 var(--s-4); padding-left: 1.2em; }
   a { color: #000; text-decoration: none; }
   .container { max-width: 100%; }
 }
+/* ---------- Process steps ---------- */
+.process-list { counter-reset: step; }
+.process-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: .9rem 0;
+  border-bottom: 1px solid var(--c-border);
+}
+.process-step:last-child { border-bottom: none; }
+.step-num {
+  flex-shrink: 0;
+  width: 36px; height: 36px;
+  background: var(--c-primary);
+  color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: .9rem;
+}
+
+/* hero-subline */
+.hero-subline {
+  font-size: clamp(.95rem, 1.4vw, 1.05rem);
+  color: rgba(255, 255, 255, .72);
+  max-width: 720px;
+  margin: 0 0 1.6rem;
+  font-style: italic;
+  line-height: 1.55;
+}
