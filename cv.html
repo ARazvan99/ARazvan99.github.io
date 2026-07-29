@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1e3a5f">
+<meta name="author" content="Afloarei Razvan-Bogdan">
+<title>Afloarei Razvan-Bogdan — Curriculum Vitae</title>
+<meta name="description" content="CV — Afloarei Razvan-Bogdan. Geodetic Engineer · Infrastructure Designer · AI Automation Builder. Romania · Available across Europe.">
+<link rel="canonical" href="https://ARazvan99.github.io/cv.html">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231e3a5f'/><path d='M16 46V18l16 10 16-10v28' fill='none' stroke='%23d97706' stroke-width='4' stroke-linejoin='round'/></svg>">
+<link rel="stylesheet" href="style.css">
+<style>
+  .cv-page { background: var(--c-surface); }
+  .cv-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 0 1.5rem;
+    border-bottom: 2px solid var(--c-primary);
+    margin-bottom: 1.5rem;
+  }
+  @media (min-width: 768px) { .cv-header { grid-template-columns: 1fr 130px; align-items: center; } }
+  .cv-name { font-size: clamp(1.6rem, 3vw, 2rem); margin: 0 0 .35rem; color: var(--c-primary-dark); }
+  .cv-role { font-size: 1.05rem; color: var(--c-accent-dark); margin: 0 0 .75rem; font-weight: 600; }
+  .cv-contact { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; font-size: .9rem; color: var(--c-text); }
+  .cv-contact li { display: flex; align-items: center; gap: .5rem; }
+  .cv-contact svg { width: 14px; height: 14px; color: var(--c-primary); flex-shrink: 0; }
+  .cv-photo { width: 110px; height: 110px; border-radius: 50%; overflow: hidden; background: var(--c-primary); box-shadow: var(--shadow-md); border: 3px solid var(--c-accent); justify-self: center; }
+  .cv-photo img, .cv-photo svg { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .cv-section { margin-bottom: 1.5rem; page-break-inside: avoid; }
+  .cv-section h2 {
+    font-size: 1rem;
+    color: var(--c-primary-dark);
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    border-bottom: 1px solid var(--c-border);
+    padding-bottom: .35rem;
+    margin: 0 0 .75rem;
+    font-family: var(--font-mono);
+  }
+  .cv-summary p { margin: 0; }
+  .cv-exp-item { margin-bottom: 1rem; }
+  .cv-exp-item:last-child { margin-bottom: 0; }
+  .cv-exp-role { font-weight: 700; color: var(--c-primary-dark); margin: 0; font-size: .98rem; }
+  .cv-exp-period { font-family: var(--font-mono); font-size: .78rem; color: var(--c-accent-dark); margin: 0 0 .25rem; letter-spacing: .04em; }
+  .cv-exp-item p { margin: 0; font-size: .9rem; }
+  .cv-skills-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .35rem; }
+  .cv-projects-list { list-style: none; margin: 0; padding: 0; }
+  .cv-projects-list li { margin-bottom: .4rem; font-size: .9rem; }
+  .cv-projects-list a { color: var(--c-primary); text-decoration: none; border-bottom: 1px solid transparent; }
+  .cv-projects-list a:hover { border-bottom-color: var(--c-accent); }
+  .cv-print-bar { display: flex; gap: .75rem; justify-content: flex-end; margin-bottom: 1rem; }
+  @media print { .cv-print-bar, .site-header, .site-footer { display: none !important; } .cv-page { padding: 0 !important; } }
+</style>
+</head>
+<body class="cv-page">
+
+<header class="site-header no-print">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand" aria-label="Afloarei Razvan-Bogdan — home">
+      <span class="brand-mark" aria-hidden="true">AB</span>
+      <span>
+        <span class="brand-name" data-i18n="brand">Afloarei Razvan-Bogdan</span>
+        <span class="brand-tag">Engineering Portfolio</span>
+      </span>
+    </a>
+    <div class="nav-actions">
+      <a class="btn btn-outline btn-sm no-print" href="index.html" data-i18n="cv.back">← Back to portfolio</a>
+      <button id="print-btn" class="btn btn-primary btn-sm no-print" onclick="window.print()" data-i18n="cv.print">Print / Save as PDF</button>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="container" style="padding-top:1.5rem;padding-bottom:2rem;max-width:880px;">
+
+  <header class="cv-header">
+    <div>
+      <h1 class="cv-name">Afloarei Razvan-Bogdan</h1>
+      <p class="cv-role">Geodetic Engineer · Infrastructure Designer · AI Automation Builder</p>
+      <ul class="cv-contact">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> afloareirazvan@yahoo.com</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +40 768 981 416</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> <span data-i18n="cv.contact.location">Romania · Available across Europe</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28z"/></svg> linkedin.com/in/razvan-afloarei · github.com/ARazvan99</li>
+      </ul>
+    </div>
+    <div class="cv-photo">
+      <img src="images/photo-placeholder.svg" alt="Photo placeholder">
+    </div>
+  </header>
+
+  <section class="cv-section cv-summary">
+    <h2 data-i18n="cv.summary">Professional summary</h2>
+    <p data-i18n="cv.summaryText">Geodetic engineer turned infrastructure designer and AI-aware engineering consultant. Nearly a decade of experience across surveying, cadaster, civil engineering design and EU/state-funded project delivery. Combines traditional engineering rigor with modern digital tools — AI agents, workflow automation and structured knowledge systems.</p>
+  </section>
+
+  <section class="cv-section">
+    <h2 data-i18n="cv.experience">Professional experience</h2>
+    <div class="cv-exp-item">
+      <p class="cv-exp-period">Current</p>
+      <p class="cv-exp-role" data-i18n="timeline.t5.role">AI Automation Builder</p>
+      <p data-i18n="timeline.t5.desc">Started integrating LLM agents and n8n workflows into engineering processes.</p>
+    </div>
+    <div class="cv-exp-item">
+      <p class="cv-exp-role" data-i18n="timeline.t4.role">Project Engineer</p>
+      <p data-i18n="timeline.t4.desc">End-to-end project ownership: scope, design, documentation, client interface.</p>
+    </div>
+    <div class="cv-exp-item">
+      <p class="cv-exp-role" data-i18n="timeline.t3.role">Infrastructure Designer</p>
+      <p data-i18n="timeline.t3.desc">Moved into civil engineering design — roads, bridges, institutional buildings.</p>
+    </div>
+    <div class="cv-exp-item">
+      <p class="cv-exp-role" data-i18n="timeline.t2.role">Geodetic Engineer</p>
+      <p data-i18n="timeline.t2.desc">Took responsibility for full surveying deliverables and OCPI submissions.</p>
+    </div>
+    <div class="cv-exp-item">
+      <p class="cv-exp-role" data-i18n="timeline.t1.role">Survey Technician</p>
+      <p data-i18n="timeline.t1.desc">Started in field surveying — total station, GNSS, topographic and cadastral measurements.</p>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <h2 data-i18n="cv.competencies">Core competencies</h2>
+    <ul class="cv-skills-list">
+      <li class="chip" data-i18n="skills.eng">Engineering</li>
+      <li class="chip" data-i18n="skills.sur">Surveying</li>
+      <li class="chip" data-i18n="skills.gis">GIS</li>
+      <li class="chip" data-i18n="skills.prog">Programming</li>
+      <li class="chip" data-i18n="skills.auto">Automation</li>
+      <li class="chip" data-i18n="skills.mgmt">Management</li>
+      <li class="chip" data-i18n="skills.comm">Communication</li>
+      <li class="chip" data-i18n="skills.lead">Leadership</li>
+      <li class="chip" data-i18n="skills.ps">Problem solving</li>
+      <li class="chip" data-i18n="skills.anal">Analytical thinking</li>
+      <li class="chip" data-i18n="skills.coord">Project coordination</li>
+    </ul>
+  </section>
+
+  <section class="cv-section">
+    <h2 data-i18n="cv.skills">Technical skills</h2>
+    <p><strong data-i18n="tech.g1">Engineering software</strong></p>
+    <p style="font-size:.9rem;color:var(--c-text-muted);margin-bottom:.75rem;" data-i18n="cv.skills.eng">AutoCAD (incl. Civil 3D), Revit, ArcGIS, QGIS, TopoLT, ProfLT, Microsoft Office</p>
+    <p><strong data-i18n="tech.g2">Survey equipment</strong></p>
+    <p style="font-size:.9rem;color:var(--c-text-muted);margin-bottom:.75rem;" data-i18n="cv.skills.survey">GNSS, Total Station, Drone, LiDAR processing</p>
+    <p><strong data-i18n="tech.g3">Digital skills</strong></p>
+    <p style="font-size:.9rem;color:var(--c-text-muted);" data-i18n="cv.skills.digital">Python, Git, Docker, n8n, AI agents (OpenAI, Claude, Gemini), Automation, Cloud platforms</p>
+  </section>
+
+  <section class="cv-section">
+    <h2 data-i18n="cv.languages">Languages</h2>
+    <ul class="cv-skills-list">
+      <li class="chip"><strong data-i18n="languages.ro.name">Romanian</strong> · <span data-i18n="languages.ro.level">Native (C2)</span></li>
+      <li class="chip"><strong data-i18n="languages.en.name">English</strong> · <span data-i18n="languages.en.level">Professional (C1)</span></li>
+      <li class="chip"><strong data-i18n="languages.fr.name">French</strong> · <span data-i18n="languages.fr.level">Basic (A2)</span></li>
+    </ul>
+  </section>
+
+  <section class="cv-section">
+    <h2 data-i18n="cv.projects">Selected projects</h2>
+    <ul class="cv-projects-list">
+      <li><a href="project-1.html" data-i18n="project1.title">Topographical Survey — Urban Area</a> · <span data-i18n="project1.location">Urban area, Romania</span> · <span data-i18n="project1.year">2024</span></li>
+      <li><a href="project-2.html" data-i18n="project2.title">Cadastral Plan — Lot Subdivision</a> · <span data-i18n="project2.location">Peri-urban area, Romania</span> · <span data-i18n="project2.year">2023</span></li>
+      <li><a href="project-3.html" data-i18n="project3.title">Institutional Building — School</a> · <span data-i18n="project3.location">Town, Romania</span> · <span data-i18n="project3.year">2024</span></li>
+      <li><a href="project-4.html" data-i18n="project4.title">Road Design — County Road</a> · <span data-i18n="project4.location">County road, Romania</span> · <span data-i18n="project4.year">2023</span></li>
+      <li><a href="project-5.html" data-i18n="project5.title">Bridge Project — Concrete Bridge</a> · <span data-i18n="project5.location">River crossing, Romania</span> · <span data-i18n="project5.year">2024</span></li>
+      <li><a href="project-6.html" data-i18n="project6.title">PNRR-Funded Civic Project</a> · <span data-i18n="project6.location">Town, Romania</span> · <span data-i18n="project6.year">2024 – 2026</span></li>
+    </ul>
+  </section>
+
+  <section class="cv-section">
+    <h2 data-i18n="contact.eyebrow">Contact</h2>
+    <p style="margin:0;">
+      <a href="mailto:afloareirazvan@yahoo.com">afloareirazvan@yahoo.com</a> ·
+      <a href="tel:+40768981416">+40 768 981 416</a> ·
+      <a href="https://www.linkedin.com/in/razvan-afloarei/" target="_blank" rel="noopener">LinkedIn</a> ·
+      <a href="https://github.com/ARazvan99" target="_blank" rel="noopener">GitHub</a>
+    </p>
+    <p style="font-size:.85rem;color:var(--c-text-muted);margin:.5rem 0 0;" data-i18n="cv.contact.availability">Open to opportunities</p>
+  </section>
+
+</main>
+
+<footer class="site-footer no-print">
+  <div class="container footer-wrap">
+    <p data-i18n="footer.copy">© <span id="year"></span> Afloarei Razvan-Bogdan — All rights reserved.</p>
+    <p class="footer-meta" data-i18n="footer.meta">AutoCAD Drafting · Topography &amp; Cadastre · Civil Engineering · AI Automation</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

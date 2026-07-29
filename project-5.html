@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Bridge project — concrete bridge. AutoCAD drafting portfolio of Afloarei Razvan-Bogdan.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#1e3a5f">
 <meta name="author" content="Afloarei Razvan-Bogdan">
 <title>Bridge Project — Concrete Bridge — Afloarei Razvan-Bogdan</title>
+<meta name="description" content="Bridge project — concrete bridge over a river. Elevation, piers, structural detailing. AutoCAD portfolio of Afloarei Razvan-Bogdan.">
+<link rel="canonical" href="https://ARazvan99.github.io/project-5.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ARazvan99.github.io/project-5.html">
+<meta property="og:title" content="Bridge Project — Concrete Bridge — Afloarei Razvan-Bogdan">
+<meta property="og:description" content="Concrete bridge, 64 m, 3 spans — elevation, piers, structural detailing.">
+<meta property="og:image" content="https://ARazvan99.github.io/images/drawing5.svg">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231e3a5f'/><path d='M16 46V18l16 10 16-10v28' fill='none' stroke='%23d97706' stroke-width='4' stroke-linejoin='round'/></svg>">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -17,39 +23,53 @@
   <div class="container nav-wrap">
     <a href="index.html" class="brand" aria-label="Afloarei Razvan-Bogdan — home">
       <span class="brand-mark" aria-hidden="true">AB</span>
-      <span class="brand-name" data-i18n="brand">Afloarei Razvan-Bogdan</span>
+      <span>
+        <span class="brand-name" data-i18n="brand">Afloarei Razvan-Bogdan</span>
+        <span class="brand-tag">Engineering Portfolio</span>
+      </span>
     </a>
     <nav class="primary-nav" aria-label="Primary">
       <ul>
         <li><a href="index.html#about" data-i18n="nav.about">About</a></li>
         <li><a href="index.html#services" data-i18n="nav.services">Services</a></li>
-        <li><a href="index.html#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+        <li><a href="index.html#projects" data-i18n="nav.projects">Projects</a></li>
         <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
       </ul>
     </nav>
     <div class="nav-actions">
-      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language to Romanian" data-lang-label="RO">
-        <span aria-hidden="true">🌐</span> <span class="lang-current">EN</span>
-      </button>
-      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
-        <span></span><span></span><span></span>
-      </button>
+      <a class="social-icon is-hidden-mobile" href="https://www.linkedin.com/in/razvan-afloarei/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+      <div class="lang-dropdown">
+        <button id="lang-toggle" class="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+          <span class="lang-flag" aria-hidden="true"><object type="image/svg+xml" data="assets/flags/gb.svg" style="width:100%;height:100%;pointer-events:none"></object></span>
+          <span class="lang-current">English</span>
+          <svg class="lang-chevron" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 4 L5 7 L8 4"/></svg>
+        </button>
+        <ul class="lang-menu" role="listbox" aria-label="Select language">
+          <li role="option" data-lang="en" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/gb.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>English</span></li>
+          <li role="option" data-lang="ro" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/ro.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>Română</span></li>
+          <li role="option" data-lang="fr" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/fr.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>Français</span></li>
+          <li role="option" data-lang="de" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/de.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>Deutsch</span></li>
+        </ul>
+      </div>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
 
 <main id="main" class="project-page">
   <div class="container">
-    <a href="index.html#portfolio" class="back-link" data-i18n="project.back">← Back to portfolio</a>
+    <a href="index.html#projects" class="back-link" data-i18n="project.back">← Back to portfolio</a>
 
     <article class="project">
       <header class="project-header">
         <p class="eyebrow"><span data-i18n="project.eyebrow">Project</span> 05 · <span data-i18n="project5.tag">Bridge</span></p>
         <h1 data-i18n="project5.title">Bridge Project — Concrete Bridge</h1>
         <ul class="project-meta">
-          <li><strong data-i18n="project.meta.location">Location</strong> · <span data-i18n="project5.location">River crossing, Romania</span></li>
-          <li><strong data-i18n="project.meta.year">Year</strong> · <span data-i18n="project5.year">2024</span></li>
-          <li><strong data-i18n="project.meta.area">Area</strong> · <span data-i18n="project5.area">64 m · 3 spans</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.location">Location</strong> · <span data-i18n="project5.location">River crossing, Romania</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.year">Year</strong> · <span data-i18n="project5.year">2024</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.area">Area</strong> · <span data-i18n="project5.area">64 m · 3 spans</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.client">Client</strong> · <span data-i18n="project5.client">County council</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.funding">Funding</strong> · <span data-i18n="project5.funding">State / PNRR</span></li>
         </ul>
       </header>
 
@@ -57,68 +77,78 @@
         <a href="images/drawing5.svg" target="_blank" rel="noopener">
           <img src="images/drawing5.svg" alt="Bridge project — concrete bridge" loading="lazy" width="800" height="600">
         </a>
-        <figcaption data-i18n="project.imageCaption">Click image for full size</figcaption>
+        <figcaption><span data-i18n="project.imageCaption">Click image for full size</span><span data-i18n="project5.role">Elevation, piers &amp; structural detailing</span></figcaption>
       </figure>
 
-      <div class="project-body">
-        <div class="project-overview">
-          <h2 data-i18n="project.overviewHeading">Overview</h2>
-          <p data-i18n="project5.overview">[PLACEHOLDER OVERVIEW — EDIT ME]</p>
-          <p><strong data-i18n="project.scopeHeading">Scope:</strong> <span data-i18n="project5.scope">General arrangement, elevation, piers and abutments, deck cross-section, railings.</span></p>
-        </div>
-
-        <aside class="project-specs">
-          <h2 data-i18n="project.specsHeading">Specs</h2>
-          <dl>
-            <div class="spec-row"><dt data-i18n="project.meta.location">Location</dt><dd data-i18n="project5.location">River crossing, Romania</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.year">Year</dt><dd data-i18n="project5.year">2024</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.area">Area</dt><dd data-i18n="project5.area">64 m · 3 spans</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.client">Client</dt><dd data-i18n="project5.client">County council</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.funding">Funding</dt><dd data-i18n="project5.funding">State / PNRR</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.role">Role</dt><dd data-i18n="project5.role">Elevation, piers & structural detailing</dd></div>
-          </dl>
-        </aside>
+      <div class="project-section reveal">
+        <h2 data-i18n="project.overviewHeading">Overview</h2>
+        <p data-i18n="project5.overview">[PLACEHOLDER OVERVIEW — EDIT ME] Concrete bridge over a small river, total length 64 m, three spans (20 m + 24 m + 20 m). Reinforced-concrete deck on two piers and abutments; standard bridge railings; the design respects Romanian technical regulations for road bridges.</p>
       </div>
 
-      <section class="project-gallery-section">
-        <h2 data-i18n="project.drawingsHeading">Drawings</h2>
-        <p class="section-sub" data-i18n="project.drawingsSub">Replace placeholders with your actual exports.</p>
-        <ul class="gallery" role="list">
-          <li class="gallery-item">
-            <a href="images/projects/p5/01-plan.svg" target="_blank" rel="noopener">
-              <figure>
-                <img src="images/projects/p5/01-plan.svg" alt="Bridge elevation placeholder" loading="lazy" width="800" height="600">
-                <figcaption>
-                  <span class="tag" data-i18n="project.tagSection">Section</span>
-                  <span class="caption" data-i18n="project5.img1.caption">Bridge elevation</span>
-                </figcaption>
-              </figure>
-            </a>
-          </li>
-          <li class="gallery-item">
-            <a href="images/projects/p5/02-section.svg" target="_blank" rel="noopener">
-              <figure>
-                <img src="images/projects/p5/02-section.svg" alt="Deck cross-section placeholder" loading="lazy" width="800" height="600">
-                <figcaption>
-                  <span class="tag" data-i18n="project.tagDetail">Detail</span>
-                  <span class="caption" data-i18n="project5.img2.caption">Deck cross-section</span>
-                </figcaption>
-              </figure>
-            </a>
-          </li>
-          <li class="gallery-item">
-            <a href="images/projects/p5/03-detail.svg" target="_blank" rel="noopener">
-              <figure>
-                <img src="images/projects/p5/03-detail.svg" alt="Pier detail placeholder" loading="lazy" width="800" height="600">
-                <figcaption>
-                  <span class="tag" data-i18n="project.tagDetail">Detail</span>
-                  <span class="caption" data-i18n="project5.img3.caption">Pier detail</span>
-                </figcaption>
-              </figure>
-            </a>
-          </li>
+      <div class="project-problem-solution reveal">
+        <div class="problem-card">
+          <h3 data-i18n="project.problemHeading">Problem</h3>
+          <p data-i18n="project5.problem">[PLACEHOLDER] The existing bridge had reached the end of its service life; a replacement was required under a state-funded programme.</p>
+        </div>
+        <div class="solution-card">
+          <h3 data-i18n="project.solutionHeading">Solution</h3>
+          <p data-i18n="project5.solution">[PLACEHOLDER] General arrangement, elevation, piers and abutments, deck cross-section and railings — designed to current Romanian technical regulations.</p>
+        </div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.techHeading">Technologies used</h2>
+        <ul class="chips" role="list">
+          <li class="chip">AutoCAD</li><li class="chip">Romanian bridge design regulations</li>
         </ul>
-      </section>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.roleHeading">My role</h2>
+        <p data-i18n="project5.myrole">Bridge drafter — general arrangement, elevation, structural detailing.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.deliverablesHeading">Deliverables</h2>
+        <ul class="deliverables-list">
+          <li data-i18n="project5.deliverables">General arrangement, elevation, piers and abutments, deck cross-section, railings.</li>
+        </ul>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.timelineHeading">Timeline</h2>
+        <div class="project-timeline">
+          <div class="timeline-bar">
+            <span class="timeline-bar-progress" style="width:100%"></span>
+            <span class="timeline-milestone" style="left:100%;background:var(--c-success);box-shadow:0 0 0 2px var(--c-success)"></span>
+          </div>
+          <div class="timeline-labels">
+            <span data-i18n="project5.timelineStart">2024 Q1</span>
+            <span data-i18n="project5.timelineNow">2024 Q2</span>
+            <span data-i18n="project5.timelineEnd">2024 Q4</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.impactHeading">Impact</h2>
+        <div class="impact-card"><p data-i18n="project5.impact">[PLACEHOLDER] Replacement bridge enters construction phase with all permits in place.</p></div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.lessonsHeading">Lessons learned</h2>
+        <div class="lessons-card"><p data-i18n="project5.lessons">[PLACEHOLDER] Hydraulic data drives everything — confirm the design flood before locking the geometry.</p></div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.galleryHeading">Drawings</h2>
+        <p class="section-sub" data-i18n="project.gallerySub">Replace placeholders with your actual exports.</p>
+        <ul class="gallery" role="list">
+          <li class="gallery-item"><a href="images/projects/p5/01-plan.svg" target="_blank" rel="noopener"><figure><img src="images/projects/p5/01-plan.svg" alt="Bridge elevation placeholder" loading="lazy" width="800" height="600"><figcaption><span class="tag" data-i18n="project.tagSection">Section</span><span class="caption" data-i18n="project5.img1.caption">Bridge elevation</span></figcaption></figure></a></li>
+          <li class="gallery-item"><a href="images/projects/p5/02-section.svg" target="_blank" rel="noopener"><figure><img src="images/projects/p5/02-section.svg" alt="Deck cross-section placeholder" loading="lazy" width="800" height="600"><figcaption><span class="tag" data-i18n="project.tagDetail">Detail</span><span class="caption" data-i18n="project5.img2.caption">Deck cross-section</span></figcaption></figure></a></li>
+          <li class="gallery-item"><a href="images/projects/p5/03-detail.svg" target="_blank" rel="noopener"><figure><img src="images/projects/p5/03-detail.svg" alt="Pier detail placeholder" loading="lazy" width="800" height="600"><figcaption><span class="tag" data-i18n="project.tagDetail">Detail</span><span class="caption" data-i18n="project5.img3.caption">Pier detail</span></figcaption></figure></a></li>
+        </ul>
+      </div>
 
       <nav class="project-nav" aria-label="Project navigation">
         <a href="project-4.html" class="prev">
@@ -136,7 +166,8 @@
         <p data-i18n="contact.sub">Send a short brief, the site address and a timeline. I'll reply within one working day.</p>
         <div class="mini-contact-actions">
           <a class="btn btn-primary" href="mailto:afloareirazvan@yahoo.com" data-i18n="contact.cta">Open email client</a>
-          <a class="btn btn-ghost" href="tel:+40768981416" data-i18n="contact.callCta">Call</a>
+          <a class="btn btn-outline" href="tel:+40768981416" data-i18n="contact.callCta">Call</a>
+          <a class="btn btn-outline" href="cv.html" data-i18n="contact.cv">Download CV</a>
         </div>
       </section>
     </article>
@@ -146,7 +177,7 @@
 <footer class="site-footer">
   <div class="container footer-wrap">
     <p data-i18n="footer.copy">© <span id="year"></span> Afloarei Razvan-Bogdan — All rights reserved.</p>
-    <p class="footer-meta" data-i18n="footer.meta">AutoCAD Drafting · Topography &amp; Cadastre · Civil Engineering</p>
+    <p class="footer-meta" data-i18n="footer.meta">AutoCAD Drafting · Topography &amp; Cadastre · Civil Engineering · AI Automation</p>
   </div>
 </footer>
 

@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="PNRR-funded civic project. AutoCAD drafting portfolio of Afloarei Razvan-Bogdan. PNRR is Romania's implementation of the EU Recovery and Resilience Facility (RRF), the main component of NextGenerationEU.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#1e3a5f">
 <meta name="author" content="Afloarei Razvan-Bogdan">
 <title>PNRR-Funded Civic Project — Afloarei Razvan-Bogdan</title>
+<meta name="description" content="PNRR-funded civic project. PNRR is Romania's implementation of the EU Recovery and Resilience Facility (RRF), the main component of NextGenerationEU. AutoCAD portfolio of Afloarei Razvan-Bogdan.">
+<link rel="canonical" href="https://ARazvan99.github.io/project-6.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ARazvan99.github.io/project-6.html">
+<meta property="og:title" content="PNRR-Funded Civic Project — Afloarei Razvan-Bogdan">
+<meta property="og:description" content="Civic centre delivered under PNRR (EU RRF / NextGenerationEU).">
+<meta property="og:image" content="https://ARazvan99.github.io/images/drawing6.svg">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231e3a5f'/><path d='M16 46V18l16 10 16-10v28' fill='none' stroke='%23d97706' stroke-width='4' stroke-linejoin='round'/></svg>">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -17,39 +23,53 @@
   <div class="container nav-wrap">
     <a href="index.html" class="brand" aria-label="Afloarei Razvan-Bogdan — home">
       <span class="brand-mark" aria-hidden="true">AB</span>
-      <span class="brand-name" data-i18n="brand">Afloarei Razvan-Bogdan</span>
+      <span>
+        <span class="brand-name" data-i18n="brand">Afloarei Razvan-Bogdan</span>
+        <span class="brand-tag">Engineering Portfolio</span>
+      </span>
     </a>
     <nav class="primary-nav" aria-label="Primary">
       <ul>
         <li><a href="index.html#about" data-i18n="nav.about">About</a></li>
         <li><a href="index.html#services" data-i18n="nav.services">Services</a></li>
-        <li><a href="index.html#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+        <li><a href="index.html#projects" data-i18n="nav.projects">Projects</a></li>
         <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
       </ul>
     </nav>
     <div class="nav-actions">
-      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language to Romanian" data-lang-label="RO">
-        <span aria-hidden="true">🌐</span> <span class="lang-current">EN</span>
-      </button>
-      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
-        <span></span><span></span><span></span>
-      </button>
+      <a class="social-icon is-hidden-mobile" href="https://www.linkedin.com/in/razvan-afloarei/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+      <div class="lang-dropdown">
+        <button id="lang-toggle" class="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
+          <span class="lang-flag" aria-hidden="true"><object type="image/svg+xml" data="assets/flags/gb.svg" style="width:100%;height:100%;pointer-events:none"></object></span>
+          <span class="lang-current">English</span>
+          <svg class="lang-chevron" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 4 L5 7 L8 4"/></svg>
+        </button>
+        <ul class="lang-menu" role="listbox" aria-label="Select language">
+          <li role="option" data-lang="en" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/gb.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>English</span></li>
+          <li role="option" data-lang="ro" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/ro.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>Română</span></li>
+          <li role="option" data-lang="fr" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/fr.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>Français</span></li>
+          <li role="option" data-lang="de" tabindex="0"><span class="lang-flag"><object type="image/svg+xml" data="assets/flags/de.svg" style="width:100%;height:100%;pointer-events:none"></object></span><span>Deutsch</span></li>
+        </ul>
+      </div>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
 
 <main id="main" class="project-page">
   <div class="container">
-    <a href="index.html#portfolio" class="back-link" data-i18n="project.back">← Back to portfolio</a>
+    <a href="index.html#projects" class="back-link" data-i18n="project.back">← Back to portfolio</a>
 
     <article class="project">
       <header class="project-header">
         <p class="eyebrow"><span data-i18n="project.eyebrow">Project</span> 06 · <span data-i18n="project6.tag">PNRR / EU</span></p>
         <h1 data-i18n="project6.title">PNRR-Funded Civic Project</h1>
         <ul class="project-meta">
-          <li><strong data-i18n="project.meta.location">Location</strong> · <span data-i18n="project6.location">Town, Romania</span></li>
-          <li><strong data-i18n="project.meta.year">Year</strong> · <span data-i18n="project6.year">2024 – 2026</span></li>
-          <li><strong data-i18n="project.meta.area">Area</strong> · <span data-i18n="project6.area">~4,200 m² built</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.location">Location</strong> · <span data-i18n="project6.location">Town, Romania</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.year">Year</strong> · <span data-i18n="project6.year">2024 – 2026</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.area">Area</strong> · <span data-i18n="project6.area">~4,200 m² built</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.client">Client</strong> · <span data-i18n="project6.client">Municipality</span></li>
+          <li class="project-meta-item"><strong data-i18n="project.meta.funding">Funding</strong> · <span data-i18n="project6.funding">PNRR (EU RRF / NextGenerationEU)</span></li>
         </ul>
       </header>
 
@@ -57,68 +77,79 @@
         <a href="images/drawing6.svg" target="_blank" rel="noopener">
           <img src="images/drawing6.svg" alt="PNRR-funded civic project" loading="lazy" width="800" height="600">
         </a>
-        <figcaption data-i18n="project.imageCaption">Click image for full size</figcaption>
+        <figcaption><span data-i18n="project.imageCaption">Click image for full size</span><span data-i18n="project6.role">Site plan &amp; building drawings</span></figcaption>
       </figure>
 
-      <div class="project-body">
-        <div class="project-overview">
-          <h2 data-i18n="project.overviewHeading">Overview</h2>
-          <p data-i18n="project6.overview">[PLACEHOLDER OVERVIEW — EDIT ME]</p>
-          <p><strong data-i18n="project.scopeHeading">Scope:</strong> <span data-i18n="project6.scope">Site plan, building plans, sections, parking and access layouts, landscaping, EU reporting package.</span></p>
-        </div>
-
-        <aside class="project-specs">
-          <h2 data-i18n="project.specsHeading">Specs</h2>
-          <dl>
-            <div class="spec-row"><dt data-i18n="project.meta.location">Location</dt><dd data-i18n="project6.location">Town, Romania</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.year">Year</dt><dd data-i18n="project6.year">2024 – 2026</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.area">Area</dt><dd data-i18n="project6.area">~4,200 m² built</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.client">Client</dt><dd data-i18n="project6.client">Municipality</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.funding">Funding</dt><dd data-i18n="project6.funding">PNRR (EU RRF / NextGenerationEU)</dd></div>
-            <div class="spec-row"><dt data-i18n="project.meta.role">Role</dt><dd data-i18n="project6.role">Site plan & building drawings</dd></div>
-          </dl>
-        </aside>
+      <div class="project-section reveal">
+        <h2 data-i18n="project.overviewHeading">Overview</h2>
+        <p data-i18n="project6.overview">[PLACEHOLDER OVERVIEW — EDIT ME] Civic centre delivered under PNRR — Romania's implementation of the EU Recovery and Resilience Facility (RRF), the main component of NextGenerationEU, the EU's COVID-19 recovery programme. Scope includes the main civic centre, an annex building, parking area, access road and landscaping. Drawing package is aligned with EU and Romanian reporting requirements.</p>
       </div>
 
-      <section class="project-gallery-section">
-        <h2 data-i18n="project.drawingsHeading">Drawings</h2>
-        <p class="section-sub" data-i18n="project.drawingsSub">Replace placeholders with your actual exports.</p>
-        <ul class="gallery" role="list">
-          <li class="gallery-item">
-            <a href="images/projects/p6/01-plan.svg" target="_blank" rel="noopener">
-              <figure>
-                <img src="images/projects/p6/01-plan.svg" alt="Site plan placeholder" loading="lazy" width="800" height="600">
-                <figcaption>
-                  <span class="tag" data-i18n="project.tagPlan">Plan</span>
-                  <span class="caption" data-i18n="project6.img1.caption">Site plan</span>
-                </figcaption>
-              </figure>
-            </a>
-          </li>
-          <li class="gallery-item">
-            <a href="images/projects/p6/02-section.svg" target="_blank" rel="noopener">
-              <figure>
-                <img src="images/projects/p6/02-section.svg" alt="Civic centre floor plan placeholder" loading="lazy" width="800" height="600">
-                <figcaption>
-                  <span class="tag" data-i18n="project.tagPlan">Plan</span>
-                  <span class="caption" data-i18n="project6.img2.caption">Civic centre — floor plan</span>
-                </figcaption>
-              </figure>
-            </a>
-          </li>
-          <li class="gallery-item">
-            <a href="images/projects/p6/03-detail.svg" target="_blank" rel="noopener">
-              <figure>
-                <img src="images/projects/p6/03-detail.svg" alt="Annex floor plan placeholder" loading="lazy" width="800" height="600">
-                <figcaption>
-                  <span class="tag" data-i18n="project.tagPlan">Plan</span>
-                  <span class="caption" data-i18n="project6.img3.caption">Annex — floor plan</span>
-                </figcaption>
-              </figure>
-            </a>
-          </li>
+      <div class="project-problem-solution reveal">
+        <div class="problem-card">
+          <h3 data-i18n="project.problemHeading">Problem</h3>
+          <p data-i18n="project6.problem">[PLACEHOLDER] The municipality needed a permit-ready, EU-compliant drawing package for a civic centre funded under PNRR.</p>
+        </div>
+        <div class="solution-card">
+          <h3 data-i18n="project.solutionHeading">Solution</h3>
+          <p data-i18n="project6.solution">[PLACEHOLDER] Site plan, building plans, sections, parking and access layouts, landscaping and EU reporting package — structured for both Romanian permitting and EU reporting.</p>
+        </div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.techHeading">Technologies used</h2>
+        <ul class="chips" role="list">
+          <li class="chip">AutoCAD</li><li class="chip">PNRR (RRF / NextGenerationEU) reporting</li>
         </ul>
-      </section>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.roleHeading">My role</h2>
+        <p data-i18n="project6.myrole">Lead drafter — site plan, building plans, sections, EU reporting package.</p>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.deliverablesHeading">Deliverables</h2>
+        <ul class="deliverables-list">
+          <li data-i18n="project6.deliverables">Site plan, building plans, sections, parking and access layouts, landscaping, EU reporting package.</li>
+        </ul>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.timelineHeading">Timeline</h2>
+        <div class="project-timeline">
+          <div class="timeline-bar">
+            <span class="timeline-bar-progress" style="width:55%"></span>
+            <span class="timeline-milestone is-current" style="left:55%"></span>
+            <span class="timeline-milestone is-future" style="left:100%"></span>
+          </div>
+          <div class="timeline-labels">
+            <span data-i18n="project6.timelineStart">2024 Q1</span>
+            <span data-i18n="project6.timelineNow">2025 Q2</span>
+            <span data-i18n="project6.timelineEnd">2026 Q2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.impactHeading">Impact</h2>
+        <div class="impact-card"><p data-i18n="project6.impact">[PLACEHOLDER] Civic centre under construction; EU reporting milestones met on schedule.</p></div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.lessonsHeading">Lessons learned</h2>
+        <div class="lessons-card"><p data-i18n="project6.lessons">[PLACEHOLDER] PNRR/EU reporting has its own rhythm — design and reporting cycles must run in parallel, not in sequence.</p></div>
+      </div>
+
+      <div class="project-section reveal">
+        <h2 data-i18n="project.galleryHeading">Drawings</h2>
+        <p class="section-sub" data-i18n="project.gallerySub">Replace placeholders with your actual exports.</p>
+        <ul class="gallery" role="list">
+          <li class="gallery-item"><a href="images/projects/p6/01-plan.svg" target="_blank" rel="noopener"><figure><img src="images/projects/p6/01-plan.svg" alt="Site plan placeholder" loading="lazy" width="800" height="600"><figcaption><span class="tag" data-i18n="project.tagPlan">Plan</span><span class="caption" data-i18n="project6.img1.caption">Site plan</span></figcaption></figure></a></li>
+          <li class="gallery-item"><a href="images/projects/p6/02-section.svg" target="_blank" rel="noopener"><figure><img src="images/projects/p6/02-section.svg" alt="Civic centre floor plan placeholder" loading="lazy" width="800" height="600"><figcaption><span class="tag" data-i18n="project.tagPlan">Plan</span><span class="caption" data-i18n="project6.img2.caption">Civic centre — floor plan</span></figcaption></figure></a></li>
+          <li class="gallery-item"><a href="images/projects/p6/03-detail.svg" target="_blank" rel="noopener"><figure><img src="images/projects/p6/03-detail.svg" alt="Annex floor plan placeholder" loading="lazy" width="800" height="600"><figcaption><span class="tag" data-i18n="project.tagPlan">Plan</span><span class="caption" data-i18n="project6.img3.caption">Annex — floor plan</span></figcaption></figure></a></li>
+        </ul>
+      </div>
 
       <nav class="project-nav" aria-label="Project navigation">
         <a href="project-5.html" class="prev">
@@ -136,7 +167,8 @@
         <p data-i18n="contact.sub">Send a short brief, the site address and a timeline. I'll reply within one working day.</p>
         <div class="mini-contact-actions">
           <a class="btn btn-primary" href="mailto:afloareirazvan@yahoo.com" data-i18n="contact.cta">Open email client</a>
-          <a class="btn btn-ghost" href="tel:+40768981416" data-i18n="contact.callCta">Call</a>
+          <a class="btn btn-outline" href="tel:+40768981416" data-i18n="contact.callCta">Call</a>
+          <a class="btn btn-outline" href="cv.html" data-i18n="contact.cv">Download CV</a>
         </div>
       </section>
     </article>
@@ -146,7 +178,7 @@
 <footer class="site-footer">
   <div class="container footer-wrap">
     <p data-i18n="footer.copy">© <span id="year"></span> Afloarei Razvan-Bogdan — All rights reserved.</p>
-    <p class="footer-meta" data-i18n="footer.meta">AutoCAD Drafting · Topography &amp; Cadastre · Civil Engineering</p>
+    <p class="footer-meta" data-i18n="footer.meta">AutoCAD Drafting · Topography &amp; Cadastre · Civil Engineering · AI Automation</p>
   </div>
 </footer>
 
