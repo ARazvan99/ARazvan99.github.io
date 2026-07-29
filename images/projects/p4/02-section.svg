@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder drawing — section view">
+  <defs>
+    <pattern id="grid-minor" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M25 0H0V25" fill="none" stroke="#cbd5e1" stroke-width="0.4"/>
+    </pattern>
+    <pattern id="grid-major" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#grid-minor)"/>
+      <path d="M100 0H0V100" fill="none" stroke="#94a3b8" stroke-width="0.7"/>
+    </pattern>
+    <linearGradient id="bgs" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgs)"/>
+  <rect width="800" height="600" fill="url(#grid-major)"/>
+  <rect x="20" y="20" width="760" height="510" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" fill="#1e3a5f">
+    <rect x="500" y="30" width="270" height="34" fill="#1e3a5f"/>
+    <text x="635" y="52" font-size="13" fill="#fff" text-anchor="middle" letter-spacing="2">SECTION</text>
+    <text x="500" y="86" font-size="10" fill="#475569">SCALE TBD  ·  REV. 00</text>
+  </g>
+
+  <g>
+    <line x1="60" y1="430" x2="740" y2="430" stroke="#1e3a5f" stroke-width="1.5"/>
+    <g stroke="#94a3b8" stroke-width="0.7">
+      <line x1="80" y1="445" x2="100" y2="465"/>
+      <line x1="110" y1="445" x2="130" y2="465"/>
+      <line x1="140" y1="445" x2="160" y2="465"/>
+      <line x1="170" y1="445" x2="190" y2="465"/>
+      <line x1="200" y1="445" x2="220" y2="465"/>
+      <line x1="230" y1="445" x2="250" y2="465"/>
+      <line x1="260" y1="445" x2="280" y2="465"/>
+      <line x1="290" y1="445" x2="310" y2="465"/>
+      <line x1="320" y1="445" x2="340" y2="465"/>
+      <line x1="350" y1="445" x2="370" y2="465"/>
+      <line x1="380" y1="445" x2="400" y2="465"/>
+      <line x1="410" y1="445" x2="430" y2="465"/>
+      <line x1="440" y1="445" x2="460" y2="465"/>
+      <line x1="470" y1="445" x2="490" y2="465"/>
+      <line x1="500" y1="445" x2="520" y2="465"/>
+      <line x1="530" y1="445" x2="550" y2="465"/>
+      <line x1="560" y1="445" x2="580" y2="465"/>
+      <line x1="590" y1="445" x2="610" y2="465"/>
+      <line x1="620" y1="445" x2="640" y2="465"/>
+      <line x1="650" y1="445" x2="670" y2="465"/>
+      <line x1="680" y1="445" x2="700" y2="465"/>
+    </g>
+  </g>
+
+  <g fill="#cbd5e1" stroke="#1e3a5f" stroke-width="2">
+    <rect x="120" y="280" width="560" height="40"/>
+  </g>
+  <g fill="#e2e8f0" stroke="#1e3a5f" stroke-width="1.6">
+    <rect x="240" y="320" width="50" height="110"/>
+    <rect x="510" y="320" width="50" height="110"/>
+  </g>
+  <g stroke="#1e3a5f" stroke-width="1.4" fill="none">
+    <line x1="120" y1="276" x2="680" y2="276"/>
+    <line x1="140" y1="280" x2="140" y2="320"/>
+    <line x1="220" y1="280" x2="220" y2="320"/>
+    <line x1="310" y1="280" x2="310" y2="320"/>
+    <line x1="400" y1="280" x2="400" y2="320"/>
+    <line x1="490" y1="280" x2="490" y2="320"/>
+    <line x1="580" y1="280" x2="580" y2="320"/>
+    <line x1="660" y1="280" x2="660" y2="320"/>
+  </g>
+
+  <g transform="translate(540,180) rotate(-12)" opacity="0.30">
+    <rect x="-110" y="-22" width="220" height="44" fill="none" stroke="#d97706" stroke-width="2"/>
+    <text x="0" y="6" font-family="ui-monospace,monospace" font-size="22" font-weight="700" fill="#d97706" text-anchor="middle" letter-spacing="3">PLACEHOLDER</text>
+  </g>
+  <rect x="20" y="530" width="760" height="50" fill="#1e3a5f"/>
+  <text x="40" y="562" font-family="ui-monospace, Menlo, monospace" font-size="14" fill="#fff" letter-spacing="2">SECTION — REPLACE WITH REAL EXPORT</text>
+  <text x="760" y="562" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#d97706" text-anchor="end">AFLOAREI R.-B.</text>
+</svg>
